@@ -1,0 +1,30 @@
+.SectionTitle{
+  overflow: hidden;
+  width: 80vw;
+  margin: 40px auto;
+  color: #22da5e;
+}
+
+.SectionTitle > span{
+  position: relative;
+}
+
+.SectionTitle > span:before{
+  content: '';
+  position: absolute;
+  width: 50vw;
+  background-color: #22da5e;
+  height: 1px;
+  top: 13px;
+  left: calc(-50vw - 20px);
+}
+
+.SectionTitle > span:after{
+  content: '';
+  position: absolute;
+  width: 50vw;
+  background-color: #22da5e;
+  height: 1px;
+  top: 13px;
+  right: calc(-50vw - 20px);
+}

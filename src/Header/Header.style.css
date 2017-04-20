@@ -1,0 +1,32 @@
+.Header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 60px;
+  width: 100vw;
+  background-color: rgba(0,0,0,0.8);
+  z-index: 100;
+}
+
+.Header > div {
+  height: 60px;
+  color: white;
+  display: flex;
+}
+.Header > div > *{
+  width: 50vw;
+  display: flex;
+  align-items: center;
+}
+
+.Header h1{
+  font-size: 22px;
+  margin: 0;
+  justify-content: center;
+}
+
+.Header span{
+  text-align: right;
+  justify-content: flex-end;
+  padding-right: 30px;
+}

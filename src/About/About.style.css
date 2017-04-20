@@ -1,0 +1,21 @@
+.About {
+}
+
+.About .AboutBlockContainer{
+  display: flex;
+}
+
+.About .AboutBlockContainer > *{
+  flex-grow: 1;
+}
+
+.AboutBlock{
+
+}
+
+.AboutBlock img{
+  border-radius: 50%;
+  height: 220px;
+  width: 220px;
+  object-fit: cover;
+}
