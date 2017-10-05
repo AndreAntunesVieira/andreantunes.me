@@ -4,6 +4,7 @@
   "description": "Site pessoal de André Antunes Vieira",
   "main": "index.js",
   "scripts": {
+    "start": "node index",
     "test": "jest"
   },
   "repository": {
@@ -17,5 +18,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.1"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1"
   }
 }
