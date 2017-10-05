@@ -1,0 +1,21 @@
+{
+  "name": "andreantunes.me",
+  "version": "1.0.0",
+  "description": "Site pessoal de André Antunes Vieira",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://tatooine.deploy.umbler.com/0jmygpgj/andreantunes-me.git"
+  },
+  "keywords": [
+    "site pessoal"
+  ],
+  "author": "Andre Antunes Vieira",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}
