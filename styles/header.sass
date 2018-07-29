@@ -1,0 +1,48 @@
+a.logo
+  position: absolute
+  left: 260px
+  width: 200px
+  height: 100px
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  color: white
+  font-weight: bold
+  & :first-child
+    margin-top: -24px
+  div
+    position: relative
+    z-index: 1
+  &:before
+    content: ''
+    position: absolute
+    width: 0
+    height: 0
+    border-style: solid
+    border-width: 100px 100px 0 100px
+    border-color: #ff6c0d transparent transparent transparent
+
+header
+  background-color: #555
+  margin-left: 506px
+  height: 46px
+  position: relative
+  a
+    padding: 16px 16px
+    display: inline-block
+    color: #CCC
+    text-transform: uppercase
+    font-size: 12px
+    &.active
+      color: white
+  &:after
+    content: ''
+    position: absolute
+    width: 0
+    height: 0
+    border-style: solid
+    border-width: 0 46px 46px 0
+    border-color: transparent #555 transparent transparent
+    left: -46px
+    top: 0

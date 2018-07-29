@@ -1,0 +1,30 @@
+{
+  "presets": [
+    "next/babel"
+  ],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": [
+          "./"
+        ]
+      }
+    ]
+  ],
+  "env": {
+    "test": {
+      "presets": [
+        ["env", { "modules": "commonjs" }],
+        "next/babel",
+        "react"
+      ],
+      "plugins": [
+        [
+          "module-resolver",
+          { "root": ["./"] }
+        ]
+      ]
+    }
+  }
+}
