@@ -31,12 +31,10 @@ function MyApp({ Component, pageProps }) {
         <meta property="og:site_name" content="André Antunes Vieira" />
         <meta property="og:title" content="André Antunes Vieira" />
         <meta property="og:type" content="website" />
-        {/*<meta property="og:image" content="/fotos/w65xrjq.webp" />*/}
         <meta property="og:locale" content="pt_BR" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="André Antunes Vieira" />
         <meta name="twitter:description" content="André Antunes Vieira" />
-        {/*<meta name="twitter:image" content="/fotos/w65xrjq.webp" />*/}
         <meta name="twitter:image:alt" content="André Antunes Vieira" />
         <meta name="theme-color" content="#7E54C6" />
       </Head>
